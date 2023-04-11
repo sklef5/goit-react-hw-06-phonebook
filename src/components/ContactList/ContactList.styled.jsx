@@ -24,7 +24,7 @@ export const Button = styled.button`
   border-radius: 4px;
   background-color: grey;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   &:hover {
