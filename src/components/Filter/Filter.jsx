@@ -1,6 +1,5 @@
 import { nanoid } from 'nanoid';
 import { Input, Label, FormStyled } from 'components/Form/Form.styled';
-import PropTypes from 'prop-types';
 import { filterContacts } from '../Redux/createSlice';
 import { useDispatch } from 'react-redux';
 

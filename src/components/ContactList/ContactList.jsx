@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types';
+
 import { Contact, Button, List, Span } from './ContactList.styled';
 import { removeContacts } from '../Redux/createSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import { isContentEditable } from '@testing-library/user-event/dist/utils';
+
 
 const ContactList = () => {
   const dispatch = useDispatch();
